@@ -1,0 +1,153 @@
+h1 {font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;}
+h2 {font-family: 'Poppins', sans-serif;
+text-align: center;
+color: white;
+letter-spacing: 2px;}
+h3 {font-family: 'Poppins', sans-serif;}
+p {font-family: 'Poppins', sans-serif;}
+
+a {
+    width: 45px;
+    height: auto;
+    margin: 5px;
+}
+.nav {
+    display: flex;
+
+}
+.name {
+    width: 60%;
+    padding-left: 20px;
+}
+.contact {
+    width: 10%;
+    padding-top: 15px;
+}
+
+.about {
+    width: 10%;
+    padding-top: 15px;
+    
+}
+
+
+.connect {
+    width: 10%;
+    padding-top: 15px;
+}
+
+#blueBox {
+    background-color: #0093BD;
+    height: 400px;
+    z-index: 0;
+}
+#meimage {
+    background-image: url("../images/IMG_5144.jpg");
+    width: 735px;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "wide1 wide1 tall1 small1"
+    "small2 small3 tall1 small4"
+    "wide2 wide2 wide3 wide3";
+    background-color: #00608A;
+    padding: 20px;
+    z-index: 2;
+}
+
+.small1 {
+background-color: white;
+grid-area: small1;
+margin: 20px;
+height: 272px;
+}
+
+.wide1 {
+    background-color: white;
+    grid-area: wide1;
+    margin: 20px;
+   
+}
+
+.wide2 {
+    background-color: white;
+    grid-area: wide2;
+    margin: 20px;
+    height: 272px;
+}
+
+.wide3 {
+    background-color: white;
+    grid-area: wide3;
+    margin: 20px;
+    height: 272px;
+}
+
+.tall1 {
+    background-color: white;
+    grid-area: tall1;
+    margin: 20px;
+    height: 602px;
+    
+}
+
+.small2 {
+    background-color: white;
+grid-area: small2;
+margin: 20px;
+height: 272px;
+}
+
+.small3 {
+    background-color: white;
+grid-area: small3;
+margin: 20px;
+height: 272px;
+}
+
+.small4 {
+    background-color: white;
+grid-area: small4;
+margin: 20px;
+height: 272px;
+}
+
+.maincontent {
+    margin: 40px;
+    display: flex;
+}
+#textcontent {
+    padding: 25px;
+    padding-left: 50px;
+    max-width: 550px;}
+
+    .grid {
+    
+        align-items: center;
+        justify-items: center;
+        font-family: 'Poppins', sans-serif;
+        height: 200px;
+      }
+      .hoverMe {
+        align-items: center;
+        background-color: rgb(255, 106, 176);
+        color: white;
+        width: 150px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+        height: 50px;
+    }
+    @media only screen and (max-width: 600px) {
+        /* For mobile phones: */
+        #meimage {display: auto;}
+        
+        }
+      }
